@@ -7,6 +7,7 @@ import dashboard from "@/assets/images/portfolio4.png";
 import restaurant from "@/assets/images/portfolio5.png";
 import arabGiftCard from "@/assets/images/portfolio6.png";
 import palmCode from "@/assets/images/portfolio7.png";
+import vscode from "@/assets/images/portfolio8.png";
 
 import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
@@ -60,6 +61,20 @@ export const ProjectsSection = () => {
       link: "https://bellacasa-furniture-react-js.vercel.app/home",
       image: bseecallEcommerce,
     },
+
+    {
+      company: t("projects.portfolio.7.company"), // Vcode clone
+      year: t("projects.portfolio.7.year"),
+      title: t("projects.portfolio.7.title"),
+      results: [
+        { title: t("projects.portfolio.7.results.0.title") },
+        { title: t("projects.portfolio.7.results.1.title") },
+        { title: t("projects.portfolio.7.results.2.title") },
+      ],
+      link: "https://exclusive-e-commerce-react-js.vercel.app/home",
+      image: vscode,
+    },
+
     {
       company: t("projects.portfolio.1.company"), // E-commerce Platform
       year: t("projects.portfolio.1.year"),
@@ -72,6 +87,7 @@ export const ProjectsSection = () => {
       link: "https://exclusive-e-commerce-react-js.vercel.app/home",
       image: ecommerce,
     },
+
     {
       company: t("projects.portfolio.2.company"), // Movie App
       year: t("projects.portfolio.2.year"),
