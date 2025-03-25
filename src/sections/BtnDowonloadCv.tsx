@@ -12,7 +12,7 @@ const BtnDownloadCv = () => {
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9, y: 2 }}
       transition={{ duration: 0.3, ease: "easeOut" }}
-      className=" fixed bottom-12 z-50  right-28 bg-black/20 text-white px-5 py-3 rounded-full shadow-xl animate-bounce
+      className=" fixed -z-10 md:z-50 md:bottom-12 md:right-28 bg-black/20 text-white px-5 py-3 rounded-full shadow-xl animate-bounce
                  hover:bg-black/60 hover:shadow-2xl transition duration-300 flex items-center gap-2"
     >
       <motion.svg
